@@ -1,9 +1,9 @@
 import { ImageBackground, StyleSheet } from 'react-native';
-import InputForm from './InputForm';
+import InputForm from './screens/InputForm';
 import React, { Component } from 'react';
 import { NavigationContainer, DefaultTheme} from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Display from './Display';
+import Display from './screens/Display';
 
 const Stack = createNativeStackNavigator();
 const navtheme = {
